@@ -10,7 +10,7 @@
     <script>
     function addName() {
         var name = document.getElementById('nameInput').value;
-        fetch('http://192.168.1.91/add_name.php', {
+        fetch('http://192.168.1.91/back-linux/add_name.php', {
             method: 'POST',
             body: JSON.stringify({ name: name })
         })
